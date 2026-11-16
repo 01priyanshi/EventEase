@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookings & Registrations | EventEase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">Event<span>Ease</span></a>
+  <nav aria-label="Main navigation">
+    <a href="index.html">Dashboard</a>
+    <a href="events.html">Events</a>
+    <a href="bookings.html">Bookings</a>
+    <a href="create-event.html">Create Event</a>
+    <a href="reports.html">Reports</a>
+    <a href="register.html">Register</a>
+    <a href="notifications.html">Notifications</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+<main class="container">
+  <div class="page-intro"><p class="eyebrow">REQUEST WORKFLOW</p><h1>Bookings & Registrations</h1><p>Review event requests and registration statuses.</p></div>
+
+<div class="search-row"><input type="search" placeholder="Search by event or user... (visual only)" aria-label="Search bookings">
+<select aria-label="Filter requests"><option>All Requests</option><option>Approved</option><option>Pending</option><option>Rejected</option></select></div>
+<div class="table-wrap"><table><thead><tr><th>Request ID</th><th>Event</th><th>Requested By</th><th>Date</th><th>Status</th></tr></thead><tbody>
+<tr><td>#EV101</td><td>Annual Tech Fest</td><td>Rahul Sharma</td><td>15 Nov 2026</td><td><span class="status approved">Approved</span></td></tr>
+<tr><td>#EV102</td><td>Innovation Workshop</td><td>Priya Verma</td><td>20 Nov 2026</td><td><span class="status pending">Pending</span></td></tr>
+<tr><td>#EV103</td><td>Music Night</td><td>Arjun Singh</td><td>25 Nov 2026</td><td><span class="status rejected">Rejected</span></td></tr>
+<tr><td>#EV104</td><td>Annual Tech Fest</td><td>Neha Gupta</td><td>15 Nov 2026</td><td><span class="status pending">Pending</span></td></tr>
+</tbody></table></div>
+<p style="margin-top:16px;color:var(--muted);font-size:13px">Sample records shown for demonstration. New form submissions cannot be stored or added to this table using HTML/CSS alone.</p>
+
+</main>
+<footer><p>© 2026 EventEase | Centralized Event Planning Platform</p><p><a href="index.html">Back to dashboard ↑</a></p></footer>
+</body>
+</html>

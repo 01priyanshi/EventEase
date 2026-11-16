@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create an Event | EventEase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">Event<span>Ease</span></a>
+  <nav aria-label="Main navigation">
+    <a href="index.html">Dashboard</a>
+    <a href="events.html">Events</a>
+    <a href="bookings.html">Bookings</a>
+    <a href="create-event.html">Create Event</a>
+    <a href="reports.html">Reports</a>
+    <a href="register.html">Register</a>
+    <a href="notifications.html">Notifications</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+<main class="container">
+  <div class="page-intro"><p class="eyebrow">EVENT DETAILS</p><h1>Create an Event</h1><p>Enter the details for a new event.</p></div>
+
+<form class="panel form-grid">
+ <div class="form-group"><label for="event-name">Event Name</label><input id="event-name" type="text" placeholder="Enter event name" required></div>
+ <div class="form-group"><label for="category">Category</label><select id="category" required><option value="">Select category</option><option>Conference</option><option>Workshop</option><option>Festival</option><option>Sports</option><option>Cultural</option></select></div>
+ <div class="form-group"><label for="date">Event Date</label><input id="date" type="date" required></div>
+ <div class="form-group"><label for="venue">Venue</label><input id="venue" type="text" placeholder="Enter venue" required></div>
+ <div class="form-group"><label for="capacity">Maximum Participants</label><input id="capacity" type="number" min="1" placeholder="Enter capacity" required></div>
+ <div class="form-group"><label for="organizer">Organizer</label><input id="organizer" type="text" placeholder="Organizer name" required></div>
+ <div class="form-group full"><label for="description">Event Description</label><textarea id="description" placeholder="Describe the event..."></textarea></div>
+ <div class="form-actions full"><button class="button" type="submit">Submit Event</button><a href="events.html" class="button button-outline">Cancel</a></div>
+ <p class="full form-note">This is a visual form only. To save the event and display it on the Events and Bookings pages, the project needs JavaScript or a backend.</p>
+</form>
+
+</main>
+<footer><p>© 2026 EventEase | Centralized Event Planning Platform</p><p><a href="index.html">Back to dashboard ↑</a></p></footer>
+</body>
+</html>
